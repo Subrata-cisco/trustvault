@@ -30,9 +30,6 @@ public class SESHelper {
 
 	public String sendMail(String to) {
 		
-		//ACCESS_KEY = "AKIAXKKU4AB46WL5RTBD";
-		//SECRET_KEY = "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";
-		
 		System.out.println("***** ACCESS_KEY :"+ACCESS_KEY);
 		String code = getRandomCode(6);
 		//String TEXTBODY = " Please use the code ["+ code + "] for verification.";
